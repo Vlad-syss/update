@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veitoo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./scss/simplebar.css">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+      <section class="header" id="header">
+            <header class="header-header">
+                <div class="container">
+                    <div class="header__body">
+                        <div class="header__nav">
+                            <div class="header__logo"><img src="./img/main-logo.png" alt="logo"></div>
+                            <div class="header__nav-block">
+                                <a href="#popup__backet" class="header-block__backet header__nav-link_modern"><img src="./img/backet.svg" alt="backet"></a>
+                                <div class="header-block__links">
+                                    <a href="tel: +380980975252" class="header-block__phone">380 98 097 5252</a>
+                                    <a href="" class="header-block__connect">Заказати зворотній зв'язок</a>
+                                </div>
+                                <div class="header__burger"><span></span></div>
+                            </div>
+                            <div class="header__nav-menu">
+                                <div onclick="removeMenu()" class="header__nav-close"></div>
+                                <div class="header__nav-main">
+                                    <ul class="header__nav-list">
+                                        <li class="header__nav-item"><a href="#" class="header__nav-link">Головна</a></li>
+                                        <li class="header__nav-item"><a href="#" class="header__nav-link">Заказати</a></li>
+                                        <li class="header__nav-item"><a href="#" class="header__nav-link">Про нас</a></li>
+                                        <li class="header__nav-item"><a href="#" class="header__nav-link">Товари</a></li>
+                                        <li class="header__nav-item"><a href="#popup__backet" class="header__nav-link header__nav-link_modern">Корзина <img src="./img/backet.svg" alt="backet"></a></li>
+                                    </ul>
+                                    <div class="header__nav-boxes">
+                                        <div class="header__nav-box">
+                                            <div class="header-nav__title">Час роботи</div>
+                                            <div class="header-nav__text">С 9:00 до 20:00<br>без вихідних</div>
+                                        </div>
+                                        <div class="header__nav-box">
+                                            <div class="header-nav__title">Де ми знаходимось</div>
+                                            <div class="header-nav__text">Київ, м. Хрещатик,<br>вул. Драгоманова,1/3сl</div>
+                                        </div>
+                                        <div class="header__nav-box">
+                                            <div class="header-nav__title">Контакти</div>
+                                            <div class="header-nav__text">Київ, м. Хрещатик,<br>вул. Драгоманова,1/3сl</div>
+                                        </div>
+                                        <div class="header__nav-ico">
+                                            <a href="#" class="header__nav-icolink"><i class="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#" class="header__nav-icolink"><i class="fa-brands fa-twitter"></i></a>
+                                            <a href="#" class="header__nav-icolink"><i class="fa-brands fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="header__main">
+                    <div class="header__content">
+                        <div class="header__content-texts">
+                            <div class="header__content-text">Карбонові обігрівачі Veito - <span>комфорт та тепло</span> вашого будинку</div>
+                            <button href="#filter" onclick="setScrollTo()" class="header__content-link">Перейти до каталогу</button>
+                        </div>
+                        <button href="#pluses" onclick="setScroll()" class="header__content-arrow" style="background-color: inherit; color: #fff;"><i class="fa-solid fa-angle-down" style="font-size: 22px;"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main class="main">
+
+            <section class="pluses" id="pluses">
+                <div class="pluses__container">
+                    <div class="pluses__body">
+                        <div class="pluses__title">
+                            <h1>Карбоновий обігрівач - найкраще рішення для дому та вулиці
+                            </h1>
+                            <div class="pluses__title-line title-line"></div>
+                        </div>
+                        <div class="pluses__boxes">
+                            <div class="pluses__column pluses__column_back1">
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>1. Комфорт</h1>
+                                        <div class="pluses__column_line"></div>
+                                    </div>
+                                    <div class="pluses__column_text">Обігрівачі Veito не знижують вологість і вміст кисню в повітрі, дозволяючи довкіллю залишатися більш вологою та здоровою.
+                                    </div>
+                                </div>
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>2. Швидке нагрівання
+                                        </h1>
+                                        <div class="pluses__column_line"></div>
+                                    </div>
+                                    <div class="pluses__column_text">Відразу після включення ви відчуваєте тепло, немає необхідності чекати на прогрівання приладу або теплоносія
+                                    </div>
+                                </div>
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>3. Дизайн та габарити
+                                        </h1>
+                                        <div class="pluses__column_line"></div>
+                                    </div>
+                                    <div class="pluses__column_text">Завдяки сучасному та ергономічному дизайну обігрівач Veito може прикрасити будь-який інтер'єр і не займає багато місця.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pluses__column pluses__column_back2">
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>1. настінна установка
+                                        </h1>
+                                        <div class="pluses__column_line"></div>
+                                    </div>
+                                    <div class="pluses__column_text">Встановлений на стіні обігрівач гріє повітря рівномірно, створюючи найбільш комфортну температуру
+                                    </div>
+                                </div>
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>2. Економічність
+                                        </h1>
+                                        <div class="pluses__column_line"></div>
+                                    </div>
+                                    <div class="pluses__column_text">Миттєве нагрівання дозволяє уникнути енерговтрат і відразу отримати потрібний ефект
+                                    </div>
+                                </div>
+                                <div class="pluses__column_box">
+                                    <div class="pluses__column_title">
+                                        <h1>3. пожежна безпека</h1>
+                                        <div class="pluses__column_line">
+                                        </div>
+                                    </div>
+                                    <div class="pluses__column_text">Температура обігрівача залишається низькою
+                                        лажі після тривалої роботи на високій
+                                        Потужність. Такий ефект досягається за рахунок
+                                        унікальної системи охолодження та надійності
+                                        карбонового елемента</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service">
+                <div class="pluses__container">
+                    <div class="service__body">
+                        <div class="service__title">
+                            <h1>Карбоновий обігрівач Veito має ряд переваг, порівняно із звичайним інфрачервоним обігрівачем.
+                            </h1>
+                            <div class="service__line title-line"></div>
+                        </div>
+                        <div class="service__columns">
+                            <div class="service__column">
+                                <div class="service__box">
+                                    <div class="service__column-title">Строк служби
+                                    </div>
+                                    <div class="service__column-text">Обігрівачі Veito виробляються з використанням новітніх технологій з вуглеводневого волокна, вони міцні, зносостійкі та мають довговічні нагрівальні елементи, що працюють до 10000 годин
+                                    </div>
+                                </div>
+                                <div class="service__box-img">
+                                    <div class="service__column-img">
+                                        <img src="./img/service1.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service__column service__column-reverse">
+                                <div class="service__box-img">
+                                    <div class="service__column-img">
+                                        <img src="./img/service2.png" alt="img">
+                                    </div>
+                                </div>
+                                <div class="service__box">
+                                    <div class="service__column-title">Всепогодність
+                                    </div>
+                                    <div class="service__column-text">Карбонові обігрівачі Veito ще й не бояться води, снігу та вітру. Можуть працювати на вулиці та відкритих верандах.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service__column">
+                                <div class="service__box">
+                                    <div class="service__column-title">Висока ефективність
+                                    </div>
+                                    <div class="service__column-text">Завдяки найвищому ККД, 100% енергії, що використовується вашим нагрівачем Veito, перетворюється на тепло.
+                                    </div>
+                                </div>
+                                <div class="service__box-img">
+                                    <div class="service__column-img">
+                                        <img src="./img/service3.png" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="filter" id="filter">
+                <div class="container">
+                    <div class="filter__body">
+                        <nav class="filter__navigation">
+                            <ul class="filter__list">
+                                <li class="filter__item filter__item-main" data-filter="all">Всі обігрівачі</li>
+                                <li class="filter__item" data-filter="wall">Настінний обігрівач</li>
+                                <li class="filter__item" data-filter="floor">Підлоговий обігрівач</li>
+                                <li class="filter__item" data-filter="accessory">Аксесуари</li>
+                            </ul>
+                        </nav>
+                        <div class="filter__mainblock">
+                            <div class="filter__column">
+                                <div data-id="01" class="filter__box floor">
+                                    <div class="filter__box_title">Blade S black</div>
+                                    <div class="filter__box_img">
+                                        <img data-img src="./img/filter1.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                    <div class="filter__box_price"><span class="filter__box_price-parse">3600</span> ₴</div>
+                                    <div data-counter class="filter__counter" style="display: none;">1</div>
+                                    <div class="them">
+                                        <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                        <a href="#filter__popup1" class="filter__box_all">Характеристики
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-id="02" class="filter__box filter__box-bigger floor">
+                                    <div class="filter__box_title">Blade S black</div>
+                                    <div class="filter__box_img filter__box_img-end">
+                                        <img data-img src="./img/filter2.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                    <div class="filter__box_price">3400 ₴</div>
+                                    <div class="filter__counter" style="display: none;">1</div>
+                                    <div class="them">
+                                        <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                        <a href="#filter__popup2" class="filter__box_all filter__box_all1">Характеристики
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter__column filter__column-reverse">
+                                <div data-id="03" class="filter__box filter__box-bigger wall">
+                                    <div class="filter__box_title">Blade S black</div>
+                                    <div class="filter__box_img">
+                                        <img data-img src="./img/filter3.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                        <div class="filter__box_price">3400 ₴</div>
+                                        <div class="filter__counter" style="display: none;">1</div>
+                                        <div class="them">
+                                            <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                            <a href="#filter__popup3" class="filter__box_all filter__box_all2">Характеристики
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-id="04" class="filter__box wall">
+                                    <div class="filter__box_title">Blade S black</div>
+                                    <div class="filter__box_img">
+                                        <img data-img src="./img/filter4.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                    <div class="filter__box_price">3140 ₴</div>
+                                    <div class="filter__counter" style="display: none;">1</div>
+                                    <div class="them">
+                                        <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                        <a href="#filter__popup4" class="filter__box_all filter__box_all3">Характеристики
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="filter__column">
+                                <div data-id="05" class="filter__box filter__box-same wall">
+                                    <div class="filter__box_title title">Blade S black</div>
+                                    <div class="filter__box_img">
+                                        <img data-img src="./img/filter5.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                    <div class="filter__box_price">2200 ₴</div>
+                                    <div class="filter__counter" style="display: none;">1</div>
+                                    <div class="them">
+                                        <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                        <a href="#filter__popup5" class="filter__box_all filter__box_all4">Характеристики
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-id="06" class="filter__box filter__box-green filter__box-same accessory">
+                                    <div class="filter__box_title">Blade S black</div>
+                                    <div class="filter__box_img">
+                                        <img data-img src="./img/filter6.png" alt="">
+                                    </div>
+                                    <div class="filter__box_about">
+                                        <div class="filter__box_price">1250 ₴</div>
+                                        <div class="filter__counter" style="display: none;">1</div>
+                                        <div class="them">
+                                            <a data-cart href="#toBacket" class="filter__box_buy">КУПИТИ</a>
+                                            <a href="#filter__popup6" class="filter__box_all filter__box_all5">Характеристики
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter__more">
+                            <button onclick="moreButton()" class="filter__more_button" id="button">Подивитись більше</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="container">
+                    <div class="gallery__body">
+                        <div class="gallery__title">
+                            <h1>ГАЛЕРЕЯ</h1>
+                            <div class="title-line gallery__line"></div>
+                        </div>
+                        <div class="gallery__content">
+                            <div class="gallery__container swiper-container">
+                                <div class="gallery__wrapper swiper-wrapper">
+                                    <div class="gallery__slide swiper-slide">
+                                        <a data-fslightbox="gallery" href="./img/gallery1.png" class="gallery__img">
+                                            <img src="./img/gallery1.png" alt="alt">
+                                        </a> 
+                                    </div>
+                                    <div class="gallery__slide swiper-slide">
+                                        <a data-fslightbox="gallery" href="./img/gallery2.png" class="gallery__img">
+                                            <img src="./img/gallery2.png" alt="alt">
+                                        </a> 
+                                    </div>
+                                    <div class="gallery__slide swiper-slide">
+                                        <a data-fslightbox="gallery" href="./img/gallery3.png" class="gallery__img">
+                                            <img src="./img/gallery3.png" alt="alt">
+                                        </a> 
+                                    </div>
+                                    <div class="gallery__slide swiper-slide">
+                                        <a data-fslightbox="gallery" href="./img/gallery4.png" class="gallery__img">
+                                            <img src="./img/gallery4.png" alt="alt">
+                                        </a> 
+                                    </div>
+                                    <div class="gallery__slide swiper-slide">
+                                        <a data-fslightbox="gallery" href="./img/gallery5.png" class="gallery__img">
+                                            <img src="./img/gallery5.png" alt="alt">
+                                        </a> 
+                                    </div>
+                                    <div class="swiper-button-next"><i class="fa-solid fa-arrow-right-long" style="filter: drop-shadow(0px 1px 5px rgba(204, 255, 0, 0.83));"></i></div>
+                                    <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left-long" style="filter: drop-shadow(0px 1px 5px rgba(204, 255, 0, 0.83));"></i></i></div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="veito">
+                <div class="container">
+                    <div class="veito__body">
+                        <div class="veito__header">
+                            <div class="veito__title">
+                                <h1>Veito</h1>
+                                <div class="title-line veito__line"></div>
+                            </div>
+                            <div class="veito__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum egestas sed egestas sit mi, lobortis feugiat molestie. Diam faucibus ac mattis pretium in amet, pulvinar. Ullamcorper consequat vulputate eu, non pulvinar eget augue neque. Ac ullamcorper vestibulum, integer cursus diam justo nunc neque.</div>
+                        </div>
+                        <div class="veito__columns">
+                            <div class="veito__box">
+                                <div class="veito__img">
+                                    <img src="./img/veito1.png" alt="">
+                                </div>
+                                <div class="veito__sabtitle">Світовий виробник
+                                </div>
+                                <div class="veito__dots"></div>
+                                <div class="veito__sabtext">Veito є визнаним лідером стилю та інновацій. Продукція заводу продається у багатьох країнах.
+                                </div>
+                            </div>
+                            <div class="veito__box">
+                                <div class="veito__img">
+                                    <img src="./img/veito.png" alt="">
+                                </div>
+                                <div class="veito__sabtitle">Бережна
+                                    транспортування
+                                    та монтаж</div>
+                                <div class="veito__dots"></div>
+                                <div class="veito__sabtext">Сучасні способи транспортування та досвідчені монтажники
+                                </div>
+                            </div>
+                            <div class="veito__box">
+                                <div class="veito__img">
+                                    <img src="./img/veito3.png" alt="">
+                                </div>
+                                <div class="veito__sabtitle">Якісні матеріали
+                                </div>
+                                <div class="veito__dots"></div>
+                                <div class="veito__sabtext">Обігрівачі Veito не просто інфрачервоні обігрівачі, вони виробляються з використанням новітнього вуглецевого волокна, вони міцні, зносостійкі та довговічні.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="clients">
+                <div class="container">
+                    <div class="clients__body">
+                        <div class="clients__title">
+                            <h1>Наші клієнти</h1>
+                            <div class="title-line clients__line"></div>
+                        </div>
+                        <div class="clients__row">
+                            <div class="clients__box">
+                                <div class="clients__img">
+                                    <img src="./img/client1.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client2.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="clients__box">
+                                <div class="clients__img">
+                                    <img src="./img/client4.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client5.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client6.png" alt="">
+                                </div>
+                            </div>
+                            <div class="clients__box">
+                                <div class="clients__img">
+                                    <img src="./img/client7.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client8.png" alt="">
+                                </div>
+                                <div class="clients__img">
+                                    <img src="./img/client9.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+        </footer>
+
+
+        <div class="popup" id="filter__popup1">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/popup__img.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="filter__popup2">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/filter2.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="filter__popup3">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/filter3.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="filter__popup4">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/filter4.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="filter__popup5">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/filter5.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="filter__popup6">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box">
+                        <div class="popup__img">
+                            <img src="./img/filter6.png" alt="alt">
+                        </div>
+                        <div class="popup__texts" data-simplebar>
+                            <div class="popup__texts_title">
+                                <h1>CH1200 LT black</h1>
+                                <div class="popup__texts_line"></div>
+                            </div>
+                            <p class="popup__texts_text">Підлоговий портативний інфрачервоний карбоновий обігрівач "Veito" CH1200 LT black підійде як для домашнього, так і для корпоративного застосування.
+                            </p>
+                            <ul class="popup__texts_list">
+                                <li class="popup__texts_item">Карбоновий нагрівальний елемент з тривалим терміном служби.
+                                </li>
+                                <li class="popup__texts_item">Негайний вихід обігрівача на заданий режим потужності.
+                                </li>
+                                <li class="popup__texts_item">Можливість зонального обігріву приміщення.
+                                </li>
+                                <li class="popup__texts_item">Низький клас енергоспоживання.
+                                </li>
+                                <li class="popup__texts_item">Безпека для людини та навколишнього середовища.
+                                </li>
+                                <li class="popup__texts_item">Чи не випалює кисень у приміщенні, не сушить повітря.
+                                </li>
+                            </ul>
+                            <div class="popup__texts_function">
+                                <h1>ФУНКЦІЇ
+                                </h1>
+                                <ul class="popup__texts_functiontext">
+                                    <li>Датчик падіння;
+                                    </li>
+                                    <li>Захист від перегріву;
+                                    </li>
+                                    <li> Две настройки мощности.</li>
+                                    <li>Гарантійні зобов'язання:
+                                    </li>
+                                    <li>На електронну частину 2 роки
+                                    </li>
+                                    <li>На нагрівальний елемент 5 років
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="popup__texts_characters">
+                                <h1>ХАРАКТЕРИСТИКИ
+                                </h1>
+                                <ul class="popup__texts_characterstext">
+                                    <li>
+                                        Колір чорний</li>
+                                    <li>Висота: 70 см</li>
+                                    <li>Ширина: 17 см</li>
+                                    <li>Глибина: 8 см</li>
+                                    <li>Діаметр підставки: 30 см</li>
+                                    <li>Довжина шнура живлення: 180 см</li>
+                                    <li>Максимальна потужність: 1200 Вт</li>
+                                    <li>Потужність по сходах: 600 / 1200 Вт</li>
+                                    <li>Напруга: 220-240 В
+                                        Площа обігріву: 10 – 15 м2</li>
+                                    <li>Розмір упаковки (ДхШхВ): 68 х 14 х 30 см</li>
+                                    <li>Виробництво: Туреччина
+                                        Вага: 2,75 кг</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="bbutton">
+                        <a data-cart href="#toBacket" class="button-toBacket" type="button">Добавити в корзину</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup" id="toBacket">
+            <a href="#header__nav" onclick="removeClass()" class="popup__area"></a>
+            <div class="popup__body popup__body-backet">
+                <div class="popup__content popup__content-backet">
+                    <a href="#header__nav" onclick="removeClass()" class="popup__close">
+                        <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                        <div class="popup__close_title">Назад</div>
+                    </a>
+                    <div class="popup__box popup__box-backet">
+                        <div class="popup__backet_ico">
+                            <img src="./img/toBacket.svg" alt="">
+                        </div>
+                        <div class="popup__backet_text">Товар успішно перейшов в корзину. Переходьте та оформляйте ваш заказ!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup__backet" id="popup__backet">
+            <div class="popup__backet_body">
+                <div class="popup__backet_content">
+                    <div class="popup__backet_header">
+                        <a href="#header__nav" class="popup__close">
+                            <div class="popup__close_ico"><img src="./img/Arrow 10.png" alt=""></div>
+                            <div class="popup__close_title">Назад</div>
+                        </a>
+                        <div class="popup__backet_logo">
+                            <img src="./img/logo_backet.png" alt="backet__logo">
+                        </div>
+                    </div>
+                    <div class="popup__backet_main">
+                          <div data-cart-empty class="popup__backet_empty">
+                                <h1><span>УПС....</span> корзина пуста!</h1>
+                                <p>Переходьте до <span>каталогу</span> та обирайте потрібний товар</p>
+                          </div>
+                          <div data-id class="popup__backet_wrapper">
+                            <!-- <div data-id="01" class="popup__backet_box">
+                                <div class="popup__backet_goods">
+                                    <div class="popup__backet_name">
+                                        <div class="popup__backet_somebox">
+                                            <div class="popup__backet_img">
+                                                <img src="./img/filter1.png" alt="">
+                                            </div>
+                                            <div class="popup__backet_texts">
+                                                <h1>Назва продукту</h1>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet convallis erat auctor nibh pharetra ac. </p>
+                                            </div>
+                                        </div>
+                                        <div class="popup__backet_color">Модель або колір</div>
+                                    </div>
+                                    <div class="popup__backet_counters">
+                                        <div class="popup__backet_more">
+                                            <div data-counter class="popup__backet_number">1</div>
+                                            <div class="popup__backet_equal">
+                                                <div data-action="plus" class="popup__backet_plus">+</div>
+                                                <div data-action="minus" class="popup__backet_minus">-</div>
+                                            </div>
+                                        </div>
+                                        <div class="popup__backet_price">36000 ₴</div>
+                                    </div>
+                                </div>
+                                <div data-remove class="popup__backet_close"></div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="popup__backet_footer">
+                        <button id="order-form" class="popup__backet_order">Оформити заказ</button>
+                        <div class="popup__backet_totalvalue">
+                            <div class="popup__backet_sometext">Загальна сумма: </div>
+                            <div class="popup__backet_value"><span class="total-price">0</span> ₴</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://kit.fontawesome.com/a8ee507c5e.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="./js/fslightbox.js"></script>
+        <script src="./js/simplebar.test.js"></script>
+        <script src="./js/script.js"></script>
+    </div>
+</body>
+</html>
